@@ -1,0 +1,84 @@
+h1 {
+    background-color: red;
+    font-family: "cursive", "fantasy";
+    color: gold;
+    text-align: center;
+}
+
+h2 {
+    color: red;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    font-style: oblique;
+}
+
+div.imagen {
+
+    padding: 0% 6.5%;
+}
+
+img {
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    margin-left: 10px;
+
+    /*display: block;
+    margin: 0 auto; (centra horizontalmente) */
+
+    /*width: 100%;
+    height: 900px;
+    object-fit: cover;  (mantiene proporciones y recorta) */
+    /*object-fit → Controla cómo se ajusta la imagen dentro de su contenedor.*/
+
+    /*float: right;  (o left) 
+    margin: 10px;
+    margin-top: 15%;*/
+    /*Float: Hace que el texto se coloque alrededor de la imagen (como en periódicos).*/
+
+    width: 410px;
+    height: 310px;
+}
+
+ul {
+    list-style-position: outside;
+    list-style-type: circle;
+    color: black;
+}
+
+ol {
+    color: black;
+}
+
+body {
+    background-color: white;
+}
+
+p {
+    color: black;
+}
+
+a {
+    color: blue;
+}
+
+p.enlace {
+    text-align: center;
+}
+
+div.cuerpo {
+    margin-left: 10px;
+    text-align: justify;
+}
+
+img.horno {
+    width: 430px;
+}
+
+p.crédito {
+    text-align: center;
+    color: gray;
+    font-style: oblique;
+}
